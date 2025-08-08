@@ -9,62 +9,62 @@ const highlights = [
   {
     title: "Supply & Installation Fm200 Fire Suppression System",
     desc: "SFFECOs Prime Series Clean Agent Fire Extinguishing Systems",
-    image: "/src/assets/pr1.jpg", // place your image in public/images/
+    image: "/pr1.jpg", // place your image in public/images/
   },
   {
     title: "Supply & Installation Novec Fire Suppression System",
     desc: "New Fire Pump Packages with HMI Control Panels",
-    image: "/src/assets/pr2.jpg",
+    image: "/pr2.jpg",
   },
   {
     title: "Supply & Installation CO2 Fire Supperssion System",
     desc: "It was a remarkable event to meet our valuable clients and consultants",
-    image: "/src/assets/pr3.jpg",
+    image: "/pr3.jpg",
   },
   {
     title: "Supply & Installation of Electric Emergency Door",
     desc: "SFFECO Pre-Packaged Pump House",
-    image: "/src/assets/pr4.jpg",
+    image: "/pr4.jpg",
   },
   {
     title: "Supply & Installation Kichen Hood Fire Suppression Sysmtem",
     desc: "SFFECOs Prime Series Clean Agent Fire Extinguishing Systems",
-    image: "/src/assets/pr5.jpg", // place your image in public/images/
+    image: "/pr5.jpg", // place your image in public/images/
   },
   {
     title: "Supply & Instllation Of Fire Hydrant",
     desc: "New Fire Pump Packages with HMI Control Panels",
-    image: "/src/assets/pr6.png",
+    image: "/pr6.png",
   },
   {
     title: "Supply & Installation Of Cladding Work",
     desc: "It was a remarkable event to meet our valuable clients and consultants",
-    image: "/src/assets/pr7.jpg",
+    image: "/pr7.jpg",
   },
   {
     title: "Supply & Installation Of Glass Work",
     desc: "SFFECO Pre-Packaged Pump House",
-    image: "/src/assets/pr8.jpg",
+    image: "/pr8.jpg",
   },
   {
     title: "Supply & Installation Of Civil Work",
     desc: "SFFECOs Prime Series Clean Agent Fire Extinguishing Systems",
-    image: "/src/assets/pr9.webp", // place your image in public/images/
+    image: "/pr9.webp", // place your image in public/images/
   },
   {
     title: "Fire Extinguisher Dry Powder Refilling",
     desc: "New Fire Pump Packages with HMI Control Panels",
-    image: "/src/assets/pr10.webp",
+    image: "/pr10.webp",
   },
   {
     title: "Fire Extinguisher CO2 Refilling",
     desc: "It was a remarkable event to meet our valuable clients and consultants",
-    image: "/src/assets/pr11.webp",
+    image: "/pr11.webp",
   },
   {
     title: "Fire Extinguisher Wet Chemical Refilling",
     desc: "SFFECO Pre-Packaged Pump House",
-    image: "/src/assets/pr10.webp",
+    image: "/pr10.webp",
   },
 ];
 
