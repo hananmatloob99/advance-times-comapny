@@ -5,22 +5,22 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const partnerLogos = [
-  "/public/Al Faris School.png",
-  "/public/Al-Hokair Group.png",
-  "/public/Alhokair.png",
-  "/public/Apparel.png",
-  "/public/Daco.png",
-  "/public/Damam.png",
-  "/public/Fawaz.png",
-  "/public/Flow.png",
-  "/public/Hi Kids.png",
-  "/public/Kaefer.png",
-  "/public/OPM.png",
-  "/public/Pan Gulf Holding.png",
-  "/public/RAJHI Steel.png",
-  "/public/Saco.png",
-  "/public/SMSA.png",
-  "/public/Sraco.png",
+  "/Al Faris School.png",
+  "/Al-Hokair Group.png",
+  "/Alhokair.png",
+  "/Apparel.png",
+  "/Daco.png",
+  "/Damam.png",
+  "/Fawaz.png",
+  "/Flow.png",
+  "/Hi Kids.png",
+  "/Kaefer.png",
+  "/OPM.png",
+  "/Pan Gulf Holding.png",
+  "/RAJHI Steel.png",
+  "/Saco.png",
+  "/SMSA.png",
+  "/Sraco.png",
   // Add more image paths as needed
 ];
 
