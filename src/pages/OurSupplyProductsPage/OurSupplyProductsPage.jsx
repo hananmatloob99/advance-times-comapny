@@ -246,87 +246,87 @@ const OurSupplyProductsPage = () => {
     {
       id: "Gate Valve",
       title: "Gate Valve",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/gate-valve-all-300x300-removebg-preview.png",
     },
     {
       id: "Foot Valve",
       title: "Foot Valve",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/foot-valves-removebg-preview.png",
     },
     {
       id: "Fire Hose Cabinet (All Types)",
       title: "Fire Hose Cabinet (All Types)",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/Phlox-fire-hose-reel-cabinet-2-removebg-preview.png",
     },
     {
       id: "Sprinkler",
       title: "Sprinkler",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/Sprinkler.png",
     },
     {
       id: "Heat Detector",
       title: "Heat Detector",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/Heat Detector.png",
     },
     {
       id: "Smoke Detector",
       title: "Smoke Detector",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/Smoke_detector-removebg-preview.png",
     },
     {
       id: "Multi Detector",
       title: "Multi Detector",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/Multi Detector.png",
     },
     {
       id: "Break Glass",
       title: "Break Glass",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/break-glass-unit-500x500-removebg-preview.png",
     },
     {
       id: "Alarm Bell",
       title: "Alarm Bell",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/fire-alarm-bell-500x500-removebg-preview.png",
     },
     {
-      id: "Emergecnt Light",
-      title: "Emergecnt Light",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      id: "Emergency Light",
+      title: "Emergency Light",
+      image: "/Emergency Light.png",
     },
     {
       id: "Exit Light",
       title: "Exit Light",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/Exit Light.png",
     },
     {
       id: "Adressable Fire Alarm Control Panel",
       title: "Adressable Fire Alarm Control Panel",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/Adressable Fire Alarm Control Panel.png",
     },
     {
       id: "Conventional Fire Alarm Control Panel",
       title: "Conventional Fire Alarm Control Panel",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/Conventional Fire Alarm Control Panel.png",
     },
     {
       id: "Fire Extinguisher Dry Powder",
       title: "Fire Extinguisher Dry Powder",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/Fire Extinguisher Dry Powder.png",
     },
     {
       id: "Fire Extinguisher CO2",
       title: "Fire Extinguisher CO2",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/co2-fire-extinguisher-removebg-preview.png",
     },
     {
       id: "Fire Extinguiser Foam",
       title: "Fire Extinguiser Foam",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/Fire Extinguiser Foam.png",
     },
     {
       id: "Fire Extinguisher Wet Chemical",
       title: "Fire Extinguisher Wet Chemical",
-      image: "/src/assets/Solenoid (Kidde).webp",
+      image: "/Fire Extinguisher Wet Chemical.png",
     },
     // Add more items up to 32 here...
   ];
@@ -351,7 +351,7 @@ const OurSupplyProductsPage = () => {
         <input
           type="text"
           placeholder="Search products..."
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red"
+          className="w-full px-4 py-2 border border-gray-800 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red"
           value={searchTerm}
           onChange={(e) => {
             setSearchTerm(e.target.value);

@@ -20,7 +20,7 @@ const features = [
 
 const SecurityFeatureSection = () => {
   return (
-    <div className="w-full bg-white pt-2.5">
+    <div className="w-full bg-white pt-2.5 overflow-x-hidden">
       {features.map((feature, index) => (
         <motion.div
           key={index}

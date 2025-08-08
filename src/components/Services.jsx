@@ -91,9 +91,9 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
           >
             {/* Number Box */}
-            <div className="bg-red-600 text-white text-lg font-bold w-14 h-14 flex items-center justify-center relative">
+            <div className="bg-red-900 text-white text-lg font-bold w-14 h-14 flex items-center justify-center relative">
               {service.id}
-              <div className="absolute -right-2 top-1/2 -translate-y-1/2 w-0 h-0 border-t-[12px] border-b-[12px] border-l-[10px] border-t-transparent border-b-transparent border-l-red-600"></div>
+              <div className="absolute -right-2 top-1/2 -translate-y-1/2 w-0 h-0 border-t-[12px] border-b-[12px] border-l-[10px] border-t-transparent border-b-transparent border-l-red-900"></div>
             </div>
 
             {/* Title */}

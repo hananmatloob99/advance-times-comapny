@@ -61,7 +61,7 @@ export const Card = ({ className, children, image }) => {
         <img
           src={image}
           alt="Card"
-          className="w-full h-40 object-cover rounded-xl mb-4"
+          className="w-full h-60 object-contain rounded-xl mb-4"
         />
       )}
 
