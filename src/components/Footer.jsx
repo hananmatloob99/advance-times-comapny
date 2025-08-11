@@ -143,6 +143,111 @@
 
 
 
+// import { Link } from "react-router-dom";
+// import logo from "../assets/logo.png";
+
+// const footerNav = [
+//   { name: "Home", href: "/" },
+//   { name: "About Us", href: "/about-us" },
+//   { name: "Our Supply Products", href: "/our-supply-products" },
+//   { name: "Services", href: "/our-services" },
+// ];
+
+// export default function Footer() {
+//   return (
+//     <footer className="bg-red-900 text-white">
+//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+//         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+//           {/* Logo & Description */}
+//           <div className="space-y-4">
+//             <img src={logo} alt="Company Logo" className="h-14 w-auto" />
+//             <p className="text-sm text-gray-200">
+//               Providing reliable fire safety and protection solutions for
+//               buildings and facilities.
+//             </p>
+//           </div>
+
+//           {/* Navigation Links */}
+//           <div>
+//             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+//             <ul className="space-y-2">
+//               {footerNav.map((item) => (
+//                 <li key={item.name}>
+//                   <Link
+//                     to={item.href}
+//                     className="text-gray-300 hover:text-white transition duration-200"
+//                   >
+//                     {item.name}
+//                   </Link>
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+
+//           {/* Contact Info */}
+//           <div>
+//             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
+//             <ul className="space-y-2 text-sm text-gray-200">
+//               {/* <li>123 Fire Safety Ave, City Name</li> */}
+
+//               <li>
+//                 Office No.14A-2nd FloorRasheed &amp; Othaim Center Salah Al-ain
+//                 St 60 Malaz P.O Box 12642 Riyadh 4018-KSA
+//               </li>
+
+//               <li>Phone: (+966) 50 393 4758</li>
+//               <li>Email: info@firesafety.com</li>
+//             </ul>
+//           </div>
+
+         
+//         </div>
+
+//         {/* Divider */}
+//         <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
+//           © {new Date().getFullYear()}. Advanced Times Company for
+//           General Contracting. All rights reserved.
+//         </div>
+//       </div>
+//     </footer>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
@@ -153,11 +258,20 @@ const footerNav = [
   { name: "Services", href: "/our-services" },
 ];
 
+const emailList = [
+  { address: "Info@advancedtimescompany.com" },
+  {  address: "AliShadab@advancedtimescompany.com" },
+  {  address: "Binaz@advancedtimescompany.com" },
+  { address: "Shamshul@advancedtimescompany.com" },
+  {  address: "Nazbin@advancedtimescompany.com" },
+];
+
 export default function Footer() {
   return (
     <footer className="bg-red-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          
           {/* Logo & Description */}
           <div className="space-y-4">
             <img src={logo} alt="Company Logo" className="h-14 w-auto" />
@@ -188,27 +302,30 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-sm text-gray-200">
-              {/* <li>123 Fire Safety Ave, City Name</li> */}
-
               <li>
-                Office No.14A-2nd FloorRasheed &amp; Othaim Center Salah Al-ain
-                St 60 Malaz P.O Box 12642 Riyadh 4018-KSA
+                Office No.14A-2nd Floor, Rasheed &amp; Othaim Center, Salah Al-ain
+                St 60, Malaz, P.O Box 12642 Riyadh 4018-KSA
               </li>
-
               <li>Phone: (+966) 50 393 4758</li>
-              <li>Email: info@firesafety.com</li>
             </ul>
           </div>
 
-          {/* Social or More */}
-          {/* <div>
-            <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-white text-gray-300">Facebook</a>
-              <a href="#" className="hover:text-white text-gray-300">Twitter</a>
-              <a href="#" className="hover:text-white text-gray-300">LinkedIn</a>
-            </div>
-          </div> */}
+          {/* Email Addresses */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Emails</h3>
+            <ul className="space-y-2 text-sm">
+              {emailList.map((email) => (
+                <li key={email.address}>
+                  <a
+                    href={`mailto:${email.address}`}
+                    className="text-gray-300 hover:text-white transition duration-200"
+                  >
+                    {email.address}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
 
         {/* Divider */}
@@ -220,3 +337,4 @@ export default function Footer() {
     </footer>
   );
 }
+
