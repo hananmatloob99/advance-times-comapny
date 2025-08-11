@@ -216,7 +216,7 @@ const OurSupplyProductsPage = () => {
     {
       id: "Nozzel",
       title: "Nozzel",
-      image: "/Nozzel.png",
+      image: "/nz.png",
     },
     {
       id: "Electric Fire Pump",
