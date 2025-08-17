@@ -8,62 +8,62 @@ import "slick-carousel/slick/slick-theme.css";
 const highlights = [
   {
     title: "Supply & Installation Fm200 Fire Suppression System",
-    desc: "SFFECOs Prime Series Clean Agent Fire Extinguishing Systems",
+    desc: "Expert supply & installation of FM200 Fire Suppression Systems for reliable fire safety.",
     image: "/pr1.jpg", // place your image in public/images/
   },
   {
     title: "Supply & Installation Novec Fire Suppression System",
-    desc: "New Fire Pump Packages with HMI Control Panels",
+    desc: "Expert supply and installation of Novec Fire Suppression System for advanced fire protection.",
     image: "/pr2.jpg",
   },
   {
     title: "Supply & Installation CO2 Fire Supperssion System",
-    desc: "It was a remarkable event to meet our valuable clients and consultants",
+    desc: "Expert supply and installation of CO₂ fire suppression systems for reliable fire protection.",
     image: "/pr3.jpg",
   },
   {
     title: "Supply & Installation of Electric Emergency Door",
-    desc: "SFFECO Pre-Packaged Pump House",
+    desc: "Professional supply & installation of electric emergency doors for enhanced safety and access control.",
     image: "/pr4.jpg",
   },
   {
     title: "Supply & Installation Kichen Hood Fire Suppression Sysmtem",
-    desc: "SFFECOs Prime Series Clean Agent Fire Extinguishing Systems",
+    desc: "Expert supply & installation of Kitchen Hood Fire Suppression Systems for reliable fire safety.",
     image: "/pr5.jpg", // place your image in public/images/
   },
   {
     title: "Supply & Instllation Of Fire Hydrant",
-    desc: "New Fire Pump Packages with HMI Control Panels",
+    desc: "Expert supply & installation of reliable fire hydrant systems for enhanced safety.",
     image: "/pr6.png",
   },
   {
     title: "Supply & Installation Of Cladding Work",
-    desc: "It was a remarkable event to meet our valuable clients and consultants",
+    desc: "Expert supply and installation of durable, high-quality cladding solutions.",
     image: "/pr7.jpg",
   },
   {
     title: "Supply & Installation Of Glass Work",
-    desc: "SFFECO Pre-Packaged Pump House",
+    desc: "Professional supply and installation of high-quality glass work.",
     image: "/pr8.jpg",
   },
   {
     title: "Supply & Installation Of Civil Work",
-    desc: "SFFECOs Prime Series Clean Agent Fire Extinguishing Systems",
+    desc: "Expert supply and installation of high-quality civil works for reliable infrastructure.",
     image: "/pr9.webp", // place your image in public/images/
   },
   {
     title: "Fire Extinguisher Dry Powder Refilling",
-    desc: "New Fire Pump Packages with HMI Control Panels",
+    desc: "Reliable Dry Powder Fire Extinguisher Refilling for guaranteed safety and readiness.",
     image: "/pr10.webp",
   },
   {
     title: "Fire Extinguisher CO2 Refilling",
-    desc: "It was a remarkable event to meet our valuable clients and consultants",
+    desc: "Professional CO2 Fire Extinguisher Refilling for reliable fire safety.",
     image: "/pr11.webp",
   },
   {
     title: "Fire Extinguisher Wet Chemical Refilling",
-    desc: "SFFECO Pre-Packaged Pump House",
+    desc: "Professional Wet Chemical Fire Extinguisher Refilling for reliable fire safety.",
     image: "/pr10.webp",
   },
 ];
@@ -102,7 +102,7 @@ const HighlightsCarousel = () => {
             className="px-4 cursor-pointer"
             onClick={() => navigate("/our-supply-products")}
           >
-            <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 flex flex-col h-full">
               <img
                 src={item.image}
                 alt={item.title}

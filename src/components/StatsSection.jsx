@@ -30,7 +30,7 @@ const StatsSection = () => {
         {/* Left Text */}
         <div>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800 mb-4 sm:mb-6 leading-snug">
-            Everything you wanted to know about Advanced Times Corporation
+            Everything you wanted to know about Advanced Times Company
           </h2>
           <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
             As a matter of delicacy and inherent principle of safety and reliability, we always

@@ -14,15 +14,15 @@ const HeroSectionAboutUs = () => {
           </h2>
           <p className="text-gray-700 mb-4">
             Passion to Protect is more than just a slogan, it’s a way of life for Advanced Times
-            Corporation. Keeping you safe and your property secure is our business.
+            Company. Keeping you safe and your property secure is our business.
           </p>
           <p className="text-gray-700 mb-4">
-            With a global network spanning over 100 countries, Advanced Times Corporation has been
+            With a global network spanning over 100 countries, Advanced Times Company has been
             recognized as the unparalleled leader in fire safety. In recognition of our outstanding
             growth and commitment to quality, we have been certified with ISO 14001.
           </p>
           <p className="text-gray-700 mb-6">
-            With your continued support and trust, Advanced Times Corporation is now poised to
+            With your continued support and trust, Advanced Times Company is now poised to
             further grow its international network. To that end, we appreciate your business and
             your commitment to safety in the workplace and look forward to serving you for decades
             to come.
